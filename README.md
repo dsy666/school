@@ -1,0 +1,23 @@
+#开发说明-v1
+##项目构建
+项目骨架使用vue-cli4.0搭建
+##目录结构
++node_modules:项目依赖文件夹，保存项目所需依赖
++public:静态资源文件夹
+    -favicon.ico:网站图标
+    -index.html:页面入口文件
++src:项目源码
+    -assets:项目静态资源（css、图片）
+    -components：存放公共组件
+    -request:http请求部分
+    -router:路由配置
+    -store:vuex配置
+    -views:存放视图组件（开发的页面组件放在这里）
+    -App.vue:根组件
+    -main.js:js入口文件
++editorconfig:规定代码风格，保存代码时使用alt+shift+f规范化保存
++eslintrc.js:代码风格检测工具eslint配置
++gitignore:git不上传类型
++package.json:项目描述文件和依赖
++package-lock.json:项目依赖版本锁定文件
++vue.config.js:vue项目添加的配置，包括webpack配置，css配置和代理配置等
