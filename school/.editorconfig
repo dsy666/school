@@ -1,0 +1,16 @@
+root = true
+# 统一编码风格，文件编写完成可使用快捷键shift+alt+f自动实现下列规范
+# 指定文件类型
+[*]
+# 文件的编码格式
+charset = utf-8
+# 指定缩进的类型[tab|space]
+indent_style = space
+# 缩进大小
+indent_size = 2
+# 换行符[lf/crlf]
+end_of_line = lf
+# 是否去除行首的空白字符
+insert_final_newline = true
+# 文件是否以一个空白行结尾
+trim_trailing_whitespace = true

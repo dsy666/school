@@ -1,0 +1,128 @@
+@import "normalize.css";
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td {
+    border:none;
+    /* 设置默认字体 */
+    font-family:"微软雅黑","黑体","宋体";
+    margin:0px;
+    padding:0px;
+    /* 采用IE盒模型 */
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* 禁止用户选中图片和文字 */
+    user-select: none;
+    /* -webkit-overflow-scrolling : touch; */
+    /* background-color: red; */
+}
+
+/* 根据不同的屏幕尺寸设置不同html字体大小 */
+@media screen and (min-width:320px) {
+    html{
+        font-size: 21.33px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    html{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    html{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:384px) {
+    html{
+        font-size: 25.6px;
+    }
+}
+
+@media screen and (min-width:400px) {
+    html{
+        font-size: 26.66px;
+    }
+}
+
+@media screen and (min-width:414px) {
+    html{
+        font-size: 27.6px;
+    }
+}
+
+@media screen and (min-width:424px) {
+    html{
+        font-size: 28.26px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    html{
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:540px) {
+    html{
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    html{
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width:750px) {
+    html{
+        font-size: 50px;
+    }
+}
+
+body{
+    min-width: 320px;
+    max-width: 750px;
+}
+
+a{
+    /* a标签默认字体颜色和去除下划线 */
+    color: #666;
+    text-decoration: none;
+}
+
+a:link,a:active,a:visited,a:hover {
+    background: none;
+    /* 取消a标签点击高亮 */
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul,ol,li{
+    /* 取消li标签的点 */
+    list-style: none;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], input {
+    /* 禁止缩放表单，去除表单轮廓 */
+    resize: none;
+    /* border: none; */
+    outline: none;
+}
+
+.clearfix{
+    /* 清除浮动 */
+    zoom: 1;
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
