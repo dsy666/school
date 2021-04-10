@@ -29,3 +29,12 @@
 + 媒体查询部分已经再base.css中写好，开发过程中所有尺寸单位使用rem
 + 调试时可以再浏览器开发者工具中切换调试工具查看手机上页面显示效果
 + 如果因为rem尺寸不好计算可以使用less写css部分
+## git使用说明
++ 我已经把各位都加入我的github项目的开发者，只要在自己的电脑上建立git仓库然后关联到我的仓库就可以直接push了（要登录自己的github账户）
++ 使用步骤
+    > 1、创建本地git仓库 `git init`（在自己的项目文件夹下）  
+    > 2、关联远程仓库`git remote add origin https://github.com/dsy666/school.git`  
+    > 3、再我的github上建立分支，每个人建一个分支，不能重名  
+    > 4、为了提交逻辑清晰，建议在自己本机git仓库也建立一个master分支和dev分支，master分支放github上master分支clone的代码，dev分支放自己开发代码，提交时直接切换到dev分支提交  
+    > 5、将我的master分支上的项目clone到自己的项目文件夹中`git clone https://github.com/dsy666/school.git`  
+    > 6、提交github命令`git push -u origin '自己再github上创建分支的名字'`
